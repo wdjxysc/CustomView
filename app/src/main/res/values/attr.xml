@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CustomView">
+        <attr name="shapeColor" format="color"/>
+        <attr name="displayShapeName" format="boolean"/>
+    </declare-styleable>
+        
+    <declare-styleable name="CustomView2">
+        <attr name="cvTitleText" format="string"/>
+        <attr name="cvTitleTextColor" format="color"/>
+        <attr name="cvTitleTextSize" format="dimension"/>
+    </declare-styleable>
+
+
+
+    <declare-styleable name="CustomImageView">
+        <attr name="civTitleText" format="string"/>
+        <attr name="civTitleTextColor" format="color"/>
+        <attr name="civTitleTextSize" format="dimension"/>
+        <attr name="civImage" format="reference"/>
+        <attr name="civImageScaleType" format="dimension"> <!--此处定义ScaleType枚举值-->
+            <enum name="fillXY" value="0" />
+            <enum name="center" value="1" />
+        </attr>
+    </declare-styleable>
+    
+</resources>
